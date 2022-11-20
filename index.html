@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sales Agreement</title>
+</head>
+<body>
+    
+    <div class="header">BT Tasarım Programı Kurulum ve Satış Sözleşmesi</div>
+    <div class="container">
+        <fieldset>
+            <legend>Sözleşme Onay</legend>
+            <div class="box1"> 
+                <table>
+                    <tr>
+                        <td></td><td><input type="checkbox">Aşağıdaki bilgilerin doğrulunu kabul ediyorum ve sözleşmeyi onaylıyorum.</td>
+                    </tr>
+                </table>
+                <table>
+                    <tr>
+                        <td><input type="submit" value="Formu Gönder"></td>
+                        <td><input type="reset" value="Reset"></td>
+                    </tr>
+                </table><br>
+                
+            </div>
+    
+        </fieldset>
+        
+        <fieldset>
+            <legend>Kişisel Bilgiler</legend>
+            <div class="box2">
+            
+                <form>
+                    <table>
+                       <tr>
+                        <td>Form Güvenlik ID:</td><td><input type="password" placeholder="Lutfen ID giriniz" name=""></td>
+                       </tr>
+                       <tr>
+                        <td>Ad:</td><td><input type="text" placeholder="Lutfen adınızı giriniz"></td>
+                       </tr>
+                       <tr>
+                        <td>Soyad:</td><td><input type="text" placeholder="Lutfen soyadınızı giriniz"></td>
+                       </tr>
+                       <tr>
+                        <td>Yaş:</td><td><input type="text" placeholder="Lutfen yaşınızı giriniz"></td>
+                       </tr>
+                       <tr>
+                        <td>Mail Adresi:</td><td><input type="text" placeholder="ornek@hotmail.com"></td>
+                       </tr>
+                       <tr>
+                        <td>Dosya Seç:</td><td><input type="file" name=""></td>
+                       </tr>   
+                    </table><br>
+                </form>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Diğer Bilgiler</legend>
+            <div class="box3">
+                <table>
+                    <h5>Buradaki Alanlar Mesleki Deneyimi Kapsar</h5>
+                    <tr><br>
+                        <td>Sektöre Giriş Tarihi:</td><td><input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td>Sektör Deneyimi:</td><td><input type="radio" name="">1-3 Yıl</td>
+                    </tr>
+                    <tr><td></td><td><input type="radio" name="">3-5 Yıl</td></tr>
+                    <tr><td></td><td><input type="radio" name="">5-15 Yıl</td></tr>
+                    <tr><td></td><td><input type="radio" name="">15 Yıl ve Üzeri</td></tr>
+                    
+                    <tr>
+                        <td>Programlama Dilleri </td><td>
+                            <select multiple><!--multiple seçeneği kaldırılırsa seçenek olarak biz seçiyoruz-->
+                            <option>Lütfen dili seçiniz</option>
+                            <option>Java</option>
+                            <option>Phyton</option>
+                            <option>PHP</option>
+                            <option>C#</option>
+                            <option>JavaScript</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                  
+                </table><br>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Sözleşme</legend>
+            <div class="box4">
+                <table>
+                    <tr>
+                        <td></td><td><textarea  cols="30" rows="5" placeholder="Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, odit nulla. Laboriosam quidem maiores deserunt, repellendus rerum quod officiis. Alias, tempora. Odio, mollitia natus. Labore impedit ab asperiores quasi ducimus?"></textarea></td>
+                    </tr>
+                </table><br>
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Mail Listesi</legend>
+            <div class="box5">
+                <table>
+                 <tr>
+                     <td>Mail Listesine Katılmak İstiyorum </td><td><input type="radio"></td>
+                 </tr>
+                 <tr><td>Mail Listesine Katılmak İstemiyorum </td><td><input type="radio"></td></tr>
+                </table>
+             </div>
+        </fieldset>
+        
+    </div>
+</body>
+</html>
